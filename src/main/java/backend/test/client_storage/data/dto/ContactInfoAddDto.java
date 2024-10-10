@@ -1,6 +1,7 @@
 package backend.test.client_storage.data.dto;
 
 import backend.test.client_storage.enumeration.ContactTypeEnum;
+import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -11,6 +12,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Getter
 @Setter
+@Schema(description = "Information required for adding new contact")
 public class ContactInfoAddDto {
     @NotNull(message = "Client id cannot be null")
     @Min(value = 1, message = "Client id must be at least 1")
