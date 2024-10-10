@@ -1,9 +1,6 @@
 package backend.test.client_storage.controller;
 
-import backend.test.client_storage.data.dto.ClientAddDto;
-import backend.test.client_storage.data.dto.ClientDto;
-import backend.test.client_storage.data.dto.ContactInfoAddDto;
-import backend.test.client_storage.data.dto.ContactInfoDto;
+import backend.test.client_storage.data.dto.*;
 import backend.test.client_storage.service.ClientService;
 import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;

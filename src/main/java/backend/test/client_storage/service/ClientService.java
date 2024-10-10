@@ -1,9 +1,6 @@
 package backend.test.client_storage.service;
 
-import backend.test.client_storage.data.dto.ClientAddDto;
-import backend.test.client_storage.data.dto.ClientDto;
-import backend.test.client_storage.data.dto.ContactInfoAddDto;
-import backend.test.client_storage.data.dto.ContactInfoDto;
+import backend.test.client_storage.data.dto.*;
 import backend.test.client_storage.data.entity.Client;
 import backend.test.client_storage.data.entity.ContactInfo;
 import backend.test.client_storage.data.entity.ContactType;
