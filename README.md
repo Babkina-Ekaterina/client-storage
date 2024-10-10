@@ -2,7 +2,12 @@
 
 ## Стек технологий
 
-Java, Spring Boot, Hibernate, PostgreSQL, Swagger, Docker
+- Java 17;
+- Spring Boot 3;
+- Hibernate;
+- PostgreSQL;
+- Swagger;
+- Docker.
 
 ## Описание проекта
 
