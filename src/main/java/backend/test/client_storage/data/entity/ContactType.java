@@ -22,7 +22,6 @@ public class ContactType {
     private Long id;
 
     @Column(name = "name", unique = true, nullable = false)
-    @UniqueElements
     private String name;
 
     @OneToMany(mappedBy = "contactType", cascade = CascadeType.ALL, orphanRemoval = true)
