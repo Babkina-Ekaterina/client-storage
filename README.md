@@ -7,7 +7,9 @@
 - Hibernate;
 - PostgreSQL;
 - Swagger;
-- Docker.
+- Docker;
+- JUnit;
+- Mockito.
 
 ## Описание проекта
 
